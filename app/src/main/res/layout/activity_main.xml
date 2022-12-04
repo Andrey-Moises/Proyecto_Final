@@ -169,7 +169,7 @@
         app:layout_constraintTop_toBottomOf="@id/findus"
         android:layout_marginTop="20dp"
 
-        android:text="Citas"
+        android:text="Agendar"
         android:fontFamily="@font/font"
         android:textStyle="bold"
         android:textSize="35dp"
