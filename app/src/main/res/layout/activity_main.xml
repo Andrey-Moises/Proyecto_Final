@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Primario1"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carmelias"
+        android:textColor="@color/Primario3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font"
+
+        />
+
+    <TextView
+
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurante"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="@id/title"
+        app:layout_constraintEnd_toEndOf="@id/title"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font"
+
+        />
+
+    <TextView
+
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@id/subtitle"
+        android:layout_marginTop="35dp"
+
+        android:text="Menu"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="35dp"
+
+        />
+
+    <Button
+
+        android:id="@+id/goMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Primario4"
+
+        app:layout_constraintTop_toTopOf="@id/menu"
+        app:layout_constraintBottom_toBottomOf="@id/menu"
+        app:layout_constraintEnd_toEndOf="@id/title"
+        android:text="Ir"
+
+        />
+
+    <TextView
+
+        android:id="@+id/aboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/menu"
+        app:layout_constraintTop_toBottomOf="@id/menu"
+        android:layout_marginTop="20dp"
+
+        android:text="Nosotros"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="35dp"
+
+        />
+
+    <Button
+
+        android:id="@+id/goaboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Primario4"
+
+        app:layout_constraintTop_toTopOf="@id/aboutUs"
+        app:layout_constraintBottom_toBottomOf="@id/aboutUs"
+        app:layout_constraintEnd_toEndOf="@id/title"
+        android:text="Ir"
+
+        />
+
+    <TextView
+
+        android:id="@+id/apointments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/aboutUs"
+        app:layout_constraintTop_toBottomOf="@id/aboutUs"
+        android:layout_marginTop="20dp"
+
+        android:text="Contacto"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="35dp"
+
+        />
+
+    <Button
+
+        android:id="@+id/goapointments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Primario4"
+
+        app:layout_constraintTop_toTopOf="@id/apointments"
+        app:layout_constraintBottom_toBottomOf="@id/apointments"
+        app:layout_constraintEnd_toEndOf="@id/title"
+        android:text="Ir"
+
+        />
+
+    <TextView
+
+        android:id="@+id/findus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/apointments"
+        app:layout_constraintTop_toBottomOf="@id/apointments"
+        android:layout_marginTop="20dp"
+
+        android:text="Encuentranos"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="28dp"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/gofindus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Primario4"
+
+        app:layout_constraintTop_toTopOf="@id/findus"
+        app:layout_constraintBottom_toBottomOf="@id/findus"
+        app:layout_constraintEnd_toEndOf="@id/title"
+        android:text="Ir"
+
+        />
+
+    <TextView
+
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/findus"
+        app:layout_constraintTop_toBottomOf="@id/findus"
+        android:layout_marginTop="20dp"
+
+        android:text="Citas"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="35dp"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/goContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Primario4"
+
+        app:layout_constraintTop_toTopOf="@id/contact"
+        app:layout_constraintBottom_toBottomOf="@id/contact"
+        app:layout_constraintEnd_toEndOf="@id/title"
+        android:text="Ir"
+
+        />
+
+    <TextView
+
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/contact"
+        app:layout_constraintTop_toBottomOf="@id/contact"
+        android:layout_marginTop="20dp"
+
+        android:text="Antojo"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="35dp"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/goVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Primario4"
+
+        app:layout_constraintTop_toTopOf="@id/video"
+        app:layout_constraintBottom_toBottomOf="@id/video"
+        app:layout_constraintEnd_toEndOf="@id/title"
+        android:text="Ir"
+
+        />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
