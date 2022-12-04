@@ -4,16 +4,162 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Primario1"
     tools:context=".Contacto">
 
-    <TextView
+    <ImageView
+
+        android:id="@+id/image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contacto"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        android:src="@drawable/ic_baseline_person_add_24"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/nameInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toBottomOf="@id/image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <EditText
+
+        android:id="@+id/inputLastName1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Apellido paterno"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toBottomOf="@id/nameInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="20dp"
+
+
+        />
+
+    <EditText
+
+        android:id="@+id/inputLastName2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Apellido Materno"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toBottomOf="@id/inputLastName1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="20dp"
+
+
+        />
+
+    <EditText
+
+        android:id="@+id/inputPhonePersonal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Telefono personal"
+        android:inputType="phone"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toBottomOf="@id/inputLastName2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="20dp"
+
+
+        />
+
+    <EditText
+
+        android:id="@+id/inputPhoneHouse"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Telefono de casa"
+        android:inputType="phone"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toBottomOf="@id/inputPhonePersonal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="20dp"
+
+
+        />
+
+    <EditText
+
+        android:id="@+id/inputEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toBottomOf="@id/inputPhoneHouse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="20dp"
+
+
+        />
+
+    <EditText
+
+        android:id="@+id/inputAdress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Domicilio"
+        android:inputType="textPostalAddress"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toBottomOf="@id/inputEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="20dp"
+
+
+        />
+
+    <Button
+
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+
+        app:layout_constraintTop_toBottomOf="@id/inputAdress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="10dp"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
