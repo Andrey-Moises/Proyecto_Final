@@ -3,17 +3,277 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/Primario1"
     android:layout_height="match_parent"
     tools:context=".Menu">
 
     <TextView
+
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MENU"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Menu"
+        android:textColor="@color/Primario3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tacos"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="45dp"
+
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item1Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$18"
+        android:textColor="@color/Primario4"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="45dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item1"
+        android:layout_marginEnd="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tortas"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="45dp"
+
+        app:layout_constraintTop_toBottomOf="@id/item1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item2Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$38"
+        android:textColor="@color/Primario4"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="45dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item2"
+        android:layout_marginEnd="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gorditas"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="45dp"
+
+        app:layout_constraintTop_toBottomOf="@id/item2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item3Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$26"
+        android:textColor="@color/Primario4"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="45dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item3"
+        android:layout_marginEnd="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cortes de carne"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="45dp"
+
+        app:layout_constraintTop_toBottomOf="@id/item3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item4Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$250"
+        android:textColor="@color/Primario4"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="45dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item4"
+        android:layout_marginEnd="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bistec en salsa verde"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="40dp"
+
+        app:layout_constraintTop_toBottomOf="@id/item4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item5Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$54"
+        android:textColor="@color/Primario4"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="45dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item5"
+        android:layout_marginEnd="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Albondigas"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="40dp"
+
+        app:layout_constraintTop_toBottomOf="@id/item5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item6Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$56"
+        android:textColor="@color/Primario4"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="45dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item6"
+        android:layout_marginEnd="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tacos dorados"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="40dp"
+
+        app:layout_constraintTop_toBottomOf="@id/item6"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/item7Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$37"
+        android:textColor="@color/Primario4"
+
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="45dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item7"
+        android:layout_marginEnd="20dp"
+
+    />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

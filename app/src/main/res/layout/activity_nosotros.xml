@@ -4,16 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Primario1"
     tools:context=".Nosotros">
 
     <TextView
+
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/font"
         android:text="Nosotros"
+        android:textColor="@color/Primario3"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="380dp"
+        android:layout_height="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+        <TextView
+
+            android:id="@+id/nosotos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:textStyle="bold"
+            android:textSize="23dp"
+
+            android:text="Nuestro objetivo es hacer que nuestros restaurantes y nuestro trabajo sean lo más responsables posibles a nivel ambiental y social. Nos esforzamos día a día para conducir el negocio de manera que logre un impacto positivo en el medioambiente y mejore las vidas de nuestros clientes, franquiciados, empleados, proveedores y comunidades en todo el mundo. Creemos que el uso de buenas prácticas comerciales ambientalmente sanas ayuda a aumentar nuestra rentabilidad de los franquiciados, mejora la experiencia de la comida de nuestros clientes y ayuda a proteger el planeta."
+
+            />
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
