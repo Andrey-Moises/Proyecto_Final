@@ -4,6 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pedido">
+    tools:context=".Pedido"
+    android:background="@color/Primario1">
+
+    <TextView
+
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carmelias"
+        android:textColor="@color/Primario3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font"
+
+        />
+
+    <EditText
+
+        android:id="@+id/de"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="A donde te lo llevamos?"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@id/boton"
+
+        />
+
+    <Button
+
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:text="calcular ruta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/Primario4"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
