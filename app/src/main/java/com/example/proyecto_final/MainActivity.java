@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
                 goContact   = findViewById(R.id.goapointments),
                 goFindUs    = findViewById(R.id.gofindus),
                 goAgend     = findViewById(R.id.goContact),
-                goVideo     = findViewById(R.id.goVideo);
+                goVideo     = findViewById(R.id.goVideo),
+                goRuta      = findViewById(R.id.goRuta);
 
         // Funcion botones
 
@@ -73,6 +74,14 @@ public class MainActivity extends AppCompatActivity {
         {
 
             Intent GO = new Intent(this, Video.class);
+            startActivity(GO);
+
+        });
+
+        goRuta.setOnClickListener(view ->
+        {
+
+            Intent GO = new Intent(this, Ruta.class);
             startActivity(GO);
 
         });
