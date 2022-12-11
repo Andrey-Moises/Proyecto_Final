@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="10dp"
         android:textSize="70dp"
         android:textStyle="bold"
         android:fontFamily="@font/font"
@@ -223,6 +223,38 @@
 
         />
 
+    <TextView
+
+        android:id="@+id/rutaLlegar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/video"
+        android:layout_marginTop="20dp"
+
+        android:text="Llegar | Envios"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="35dp"
+
+        />
+
+    <Button
+
+        android:id="@+id/goRuta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Primario4"
+
+        app:layout_constraintTop_toBottomOf="@id/rutaLlegar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+
+        android:text="Ir"
+
+        />
 
 
 
