@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Proyecto_Final</string>
+    <string name="map_key" translatable="false"> AIzaSyDWf6845QDXrlN3ig0r4UBmbH_lKKAfW5s </string>
 </resources>
